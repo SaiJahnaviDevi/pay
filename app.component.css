@@ -1,0 +1,136 @@
+.title img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -1350px;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(169, 219, 241) 50%,
+    rgb(169, 219, 241) 50%
+  );
+  padding-bottom: 40px;
+  width: 100%;
+}
+.container form {
+  padding: 15px;
+  width: 750px;
+  background: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.container form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.container form .row .col {
+  flex: 1 1 250px;
+}
+.container form .row .col .tittle {
+  font-size: 20px;
+  color: rgb(4, 74, 204);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.container form .row .col .inputbox {
+  margin: 15px 0;
+}
+.container form .row .col .inputbox span {
+  margin-bottom: 10px;
+  display: block;
+}
+.container form .row .col .inputbox input {
+  width: 70%;
+  border: 1px solid #ccc;
+  padding: 7px 5px;
+  font-size: 15px;
+  text-transform: none;
+}
+.container form .row .col .inputbox input:focus {
+  border: 1px solid #000;
+}
+
+.container form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+.container form .row .col .flex .inputbox {
+  margin-top: 5px;
+}
+
+.left {
+  flex-basis: 50%;
+}
+.right {
+  flex-basis: 50%;
+}
+.container form .row .col .tittle1 {
+  font-size: 20px;
+  color: rgb(4, 74, 204);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#pay {
+  background: forestgreen;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#pay button {
+  background-color: forestgreen;
+}
+
+#placeorder {
+  background: forestgreen;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#placeorder button {
+  background-color: forestgreen;
+}
+
+#gotocart {
+  background: rgb(229, 120, 126);
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#gotocart button {
+  background-color: rgb(229, 120, 126);
+}

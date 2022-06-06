@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="app.component.css" />
+    <title>pay</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="left">
+          <div class="row">
+            <div class="col">
+              <h3 class="tittle">billing address</h3>
+              <div class="inputbox">
+                <span>Full Name :</span>
+                <input type="text" placeholder="John" />
+              </div>
+              <div class="inputbox">
+                <span>Email :</span>
+                <input type="text" placeholder="example@example.com" />
+              </div>
+              <div class="inputbox">
+                <span>Address :</span>
+                <input type="text" placeholder="Door no. - street - locality" />
+              </div>
+              <div class="inputbox">
+                <span>City :</span>
+                <input type="text" placeholder="Hyd" />
+              </div>
+              <div class="flex">
+                <div class="inputbox">
+                  <span>State :</span>
+                  <input type="text" placeholder="Telangana" />
+                </div>
+              </div>
+              <div class="inputbox">
+                <span>Pincode :</span>
+                <input type="text" placeholder="500036" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="row">
+            <div class="col">
+              <h3 class="tittle1">Payment Methods</h3>
+              <div id="pay" type="submit" style="display: block">
+                <button (click)="initializePayment(2)">
+                  creditcard/debitcard
+                </button>
+              </div>
+              <div id="placeorder" type="submit" style="display: block">
+                <button (click)="placeorder()">Place Order</button>
+              </div>
+              <div id="gotocart" type="button" style="display: block">
+                <button (click)="(gotocart)">GO TO CART</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="title">
+      <img src="assets/images/logo.png" alt="" />
+    </div>
+  </body>
+</html>
